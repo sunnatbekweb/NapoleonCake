@@ -3,13 +3,16 @@
 let desktopMenu = document.querySelector('.desktop_menu')
 let biList = document.querySelector('.bi-list')
 let close = document.querySelector('.close')
+let redsBackdrop = document.querySelector(".reds-bacldrop")
 
 biList.addEventListener('click', () => {
     desktopMenu.classList.remove('swipe_dm')
+    redsBackdrop.style.backgroundColor = "rgba(0, 0, 0, 0.15)"
 })
 
 close.addEventListener('click', () => {
     desktopMenu.classList.add('swipe_dm')
+    redsBackdrop.style.backgroundColor = "rgba(0, 0, 0, 0.15)"
 })
 
 let onm = document.querySelector('.open_nm')
@@ -31,7 +34,7 @@ function slider() {
         count = 0
     }
     if (count < 0) {
-        count = images.length
+        count = images.length - 1
     }
     c_list.style.transform = `translateX(-${count * 100}%)`
 }

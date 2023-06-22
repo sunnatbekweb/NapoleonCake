@@ -794,7 +794,7 @@ main {
                         line-height: 21px;
                         color: #BABABA;
                     }
-                    
+
                     i {
                         color: #BABABA;
                         font-size: 14px;
@@ -858,6 +858,658 @@ main {
                     font-size: 42px;
                     line-height: 103px;
                     color: #3A3A3A;
+                }
+            }
+        }
+
+        #cakes {
+            padding: 50px 0 0 0;
+            font-family: "FuturaPTBook";
+
+            .wrapper {
+                overflow: hidden;
+
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+
+                    h1 {
+                        font-weight: 400;
+                        font-size: 26px;
+                        line-height: 33px;
+                        letter-spacing: 0.1em;
+                        color: #3A3A3A;
+                        margin: 0;
+                    }
+
+                    .all {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        h2 {
+                            font-weight: 400;
+                            font-size: 26px;
+                            line-height: 33px;
+                            color: #3A3A3A;
+                        }
+                    }
+                }
+
+                .c_wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    overflow-x: scroll;
+                    gap: 25px;
+
+                    .card {
+                        width: 300px;
+                        height: 420px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        h3 {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 26px;
+                            color: #3A3A3A;
+                        }
+
+                        .rate {
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+                        }
+
+                        .price {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            p {
+                                font-family: "FututaPTDemo";
+                                font-weight: 450;
+                                font-size: 24px;
+                                line-height: 31px;
+                                color: #3A3A3A;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: #BABABA;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #cakes2 {
+            padding: 100px 0 100px 0;
+            font-family: "FuturaPTBook";
+
+            .wrapper {
+                overflow: hidden;
+
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+
+                    h1 {
+                        font-weight: 400;
+                        font-size: 26px;
+                        line-height: 33px;
+                        letter-spacing: 0.1em;
+                        color: #3A3A3A;
+                        margin: 0;
+                    }
+
+                    .all {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        h2 {
+                            font-weight: 400;
+                            font-size: 26px;
+                            line-height: 33px;
+                            color: #3A3A3A;
+                        }
+                    }
+                }
+
+                .c_wrapper2 {
+                    display: flex;
+                    justify-content: space-between;
+                    overflow-x: scroll;
+                    gap: 25px;
+
+                    .card {
+                        width: 300px;
+                        height: 420px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        h3 {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 26px;
+                            color: #3A3A3A;
+                        }
+
+                        .rate {
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+                        }
+
+                        .price {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            p {
+                                font-family: "FututaPTDemo";
+                                font-weight: 450;
+                                font-size: 24px;
+                                line-height: 31px;
+                                color: #3A3A3A;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: #BABABA;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #cakes3 {
+            padding: 100px 0 100px 0;
+            font-family: "FuturaPTBook";
+
+            .wrapper {
+                overflow: hidden;
+
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+
+                    h1 {
+                        font-weight: 400;
+                        font-size: 26px;
+                        line-height: 33px;
+                        letter-spacing: 0.1em;
+                        color: #3A3A3A;
+                        margin: 0;
+                    }
+
+                    .all {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        h2 {
+                            font-weight: 400;
+                            font-size: 26px;
+                            line-height: 33px;
+                            color: #3A3A3A;
+                        }
+                    }
+                }
+
+                .c_wrapper3 {
+                    display: flex;
+                    justify-content: space-between;
+                    overflow-x: scroll;
+                    gap: 25px;
+
+                    .card {
+                        width: 300px;
+                        height: 420px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        h3 {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 26px;
+                            color: #3A3A3A;
+                        }
+
+                        .rate {
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+                        }
+
+                        .price {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            p {
+                                font-family: "FututaPTDemo";
+                                font-weight: 450;
+                                font-size: 24px;
+                                line-height: 31px;
+                                color: #3A3A3A;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: #BABABA;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #cakes4 {
+            padding: 0 0 100px 0;
+            font-family: "FuturaPTBook";
+
+            .wrapper {
+                overflow: hidden;
+
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+
+                    h1 {
+                        font-weight: 400;
+                        font-size: 26px;
+                        line-height: 33px;
+                        letter-spacing: 0.1em;
+                        color: #3A3A3A;
+                        margin: 0;
+                    }
+
+                    .all {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        h2 {
+                            font-weight: 400;
+                            font-size: 26px;
+                            line-height: 33px;
+                            color: #3A3A3A;
+                        }
+                    }
+                }
+
+                .c_wrapper4 {
+                    display: flex;
+                    justify-content: space-between;
+                    overflow-x: scroll;
+                    gap: 25px;
+
+                    .card {
+                        width: 300px;
+                        height: 420px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        h3 {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 26px;
+                            color: #3A3A3A;
+                        }
+
+                        .rate {
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+                        }
+
+                        .price {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            p {
+                                font-family: "FututaPTDemo";
+                                font-weight: 450;
+                                font-size: 24px;
+                                line-height: 31px;
+                                color: #3A3A3A;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: #BABABA;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #cakes5 {
+            padding: 100px 0 100px 0;
+            font-family: "FuturaPTBook";
+
+            .wrapper {
+                overflow: hidden;
+
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+
+                    h1 {
+                        font-weight: 400;
+                        font-size: 26px;
+                        line-height: 33px;
+                        letter-spacing: 0.1em;
+                        color: #3A3A3A;
+                        margin: 0;
+                    }
+
+                    .all {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        h2 {
+                            font-weight: 400;
+                            font-size: 26px;
+                            line-height: 33px;
+                            color: #3A3A3A;
+                        }
+                    }
+                }
+
+                .c_wrapper5 {
+                    display: flex;
+                    justify-content: space-between;
+                    overflow-x: scroll;
+                    gap: 25px;
+
+                    .card {
+                        width: 300px;
+                        height: 420px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        h3 {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 26px;
+                            color: #3A3A3A;
+                        }
+
+                        .rate {
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+                        }
+
+                        .price {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            p {
+                                font-family: "FututaPTDemo";
+                                font-weight: 450;
+                                font-size: 24px;
+                                line-height: 31px;
+                                color: #3A3A3A;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: #BABABA;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #cakes6 {
+            padding: 0 0 100px 0;
+            font-family: "FuturaPTBook";
+
+            .wrapper {
+                overflow: hidden;
+
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+
+                    h1 {
+                        font-weight: 400;
+                        font-size: 26px;
+                        line-height: 33px;
+                        letter-spacing: 0.1em;
+                        color: #3A3A3A;
+                        margin: 0;
+                    }
+
+                    .all {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        h2 {
+                            font-weight: 400;
+                            font-size: 26px;
+                            line-height: 33px;
+                            color: #3A3A3A;
+                        }
+                    }
+                }
+
+                .c_wrapper6 {
+                    display: flex;
+                    justify-content: space-between;
+                    overflow-x: scroll;
+                    gap: 25px;
+
+                    .card {
+                        width: 300px;
+                        height: 420px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        h3 {
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 26px;
+                            color: #3A3A3A;
+                        }
+
+                        .rate {
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+                        }
+
+                        .price {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            p {
+                                font-family: "FututaPTDemo";
+                                font-weight: 450;
+                                font-size: 24px;
+                                line-height: 31px;
+                                color: #3A3A3A;
+                            }
+
+                            span {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: #BABABA;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #last_cards {
+            .last_wrapper {
+                display: flex;
+                overflow-x: scroll;
+                gap: 40px;
+
+                .card_l {
+                    width: 400px;
+                    height: 435px;
+
+                    h2 {
+                        margin: 10px 0 29px 0;
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 28px;
+                        color: #3A3A3A;
+                    }
+
+                    .card_f {
+                        display: flex;
+                        justify-content: space-between;
+                        align-content: center;
+
+                        .date {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 21px;
+                            color: #BABABA;
+                        }
+
+                        .watch {
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+
+                            p {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 21px;
+                                color: #BABABA;
+                            }
+
+                            i {
+                                color: #BABABA;
+                                font-size: 14px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -932,16 +1584,22 @@ main {
 
                 .sale_i {
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: center;
                     align-items: center;
 
                     h1 {
                         font-family: "FuturaPTDemo";
-                        width: 880px;
+                        max-width: 880px;
                         font-weight: 450;
-                        font-size: 29px;
-                        line-height: 77px;
+                        font-size: 36px;
+                        line-height: 32px;
                         color: #3A3A3A;
+                        text-align: center;
+                        margin-top: 100px;
+                    }
+
+                    img {
+                        display: none;
                     }
                 }
             }
