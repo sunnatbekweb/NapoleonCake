@@ -1,4 +1,136 @@
-footer{
+footer {
   width: 100%;
   height: auto;
+  padding: 100px 60px;
+
+  .f_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .f_lists {
+      h5 {
+        color: #3A3A3A;
+        font-size: 20px;
+        font-family: Futura PT;
+        font-weight: 400;
+        margin-bottom: 40px;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style-type: none;
+
+        a {
+          text-decoration: none;
+          color: #3A3A3A;
+          font-size: 16px;
+          font-family: Futura PT;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .f_lists:nth-child(3) {
+      .news {
+        color: #3A3A3A;
+        font-size: 16px;
+        font-family: Futura PT;
+        font-weight: 400;
+      }
+
+      .email_news {
+        display: flex;
+        gap: 24px;
+        margin: 20px 0 20px 0;
+
+        input {
+          width: 272px;
+          height: 40px;
+          border-radius: 5px;
+          background: #F5F5F5;
+          border: none;
+          padding: 10px;
+        }
+
+        button {
+          width: 40px;
+          height: 40px;
+          border-radius: 5px;
+          background: #BABABA;
+          border: none;
+          cursor: pointer;
+          color: #FFFFFF;
+          transition: all 0.3s ease;
+
+          &:hover {
+            background: #797979;
+          }
+        }
+      }
+
+      .access {
+        color: #BABABA;
+        font-size: 14px;
+        font-family: Futura PT;
+        font-weight: 400;
+        margin-bottom: 30px;
+      }
+    }
+
+    .f_lists:nth-child(4) {
+      .f_social {
+        display: flex;
+        gap: 20px;
+
+        i {
+          font-size: 16px;
+          cursor: pointer;
+          transition: all 0.3s linear;
+
+          &:hover {
+            transform: scale(120%);
+          }
+        }
+      }
+
+      .number_p {
+        color: #3A3A3A;
+        font-size: 20px;
+        font-family: Futura PT;
+        font-weight: 400;
+      }
+
+      .text_cpy {
+        color: #3A3A3A;
+        font-size: 18px;
+        font-family: Futura PT;
+        font-weight: 400;
+      }
+
+      a, .free_call {
+        color: #3A3A3A;
+        font-size: 12px;
+        font-family: Futura PT;
+        text-decoration-line: underline;
+      }
+
+      .free_call {
+        text-decoration: none;
+      }
+
+      .contact {
+        margin: 16px 0 5px 0;
+      }
+
+      .p_number2 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
 }
